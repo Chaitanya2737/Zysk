@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { fetchTodoApi } from '../api/api';
 
 const SearchTodos = () => {
   const [todos, setTodos] = useState([]);
